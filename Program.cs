@@ -71,7 +71,7 @@ builder.Services.AddAuthentication(opt =>
                 // ValidateIssuerSigningKey = true,
                 ValidAudience = "https://localhost:7095",
                 ValidIssuer = "https://localhost:7095",
-                IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("keyboard_cat"))
+                IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("really_big_keayboard_cat"))
 
             };
         });
